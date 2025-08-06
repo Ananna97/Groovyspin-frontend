@@ -15,7 +15,7 @@ import { get } from "http";
 
 export const user_service="https://user-service-rq1d.onrender.com";
 export const contributor_service="https://contributor-service.onrender.com";
-export const post_service="https://post-service-mxam.onrender.com";
+export const post_service="https://post-service-u2s4.onrender.com";
 
 export const postCategories=[
   "Music",
