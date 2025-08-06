@@ -240,11 +240,15 @@ const PostPage = () => {
           </p>
         </CardHeader>
         <CardContent>
-          <img
-            src={post.image}
-            alt=""
-            className="w-full h-64 object-cover rounded-lg mb-4"
-          />
+<div className="relative w-full overflow-hidden rounded-lg mb-4 border border-black/10">
+  <img
+    src={post.image}
+    alt={post.title}
+    className="w-full aspect-[16/9] object-cover transition-transform duration-300 hover:scale-105"
+  />
+</div>
+
+
           <p className="text-lg text-gray-700 mb-4">{post.description}</p>
           <div
             className="prose max-w-none"

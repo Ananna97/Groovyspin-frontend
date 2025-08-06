@@ -112,7 +112,7 @@ const ProfilePage=() => {
       {loading ? (
         <Loading />
       ) : (
-        <Card className="w-full max-w-xl shadow-lg border rounded-2xl p-6">
+      <Card className="w-full max-w-xl overflow-hidden rounded-lg transition-shadow duration-300 hover:shadow-xl border-2 border-black/20">
           <CardHeader className="text-center">
             <CardTitle className="text-2xl font-semibold">Profile</CardTitle>
 

@@ -21,9 +21,9 @@ const PostCard: React.FC<PostCardProps>=({
 }) => {
   return (
     <Link href={`/post/${id}`}>
-      <Card className="overflow-hidden rounded-lg shadow-none transition-shadow duration-300 hover:shadow-xl border-none">
-        <div className="w-full h-[200px]">
-          <img src={image} alt={title} className="w-full h-full object-cover" />
+      <Card className="overflow-hidden rounded-lg transition-shadow duration-300 hover:shadow-xl border-2 border-black/20">
+        <div className="w-full h-[220px] overflow-hidden">
+          <img src={image} alt={title} className="w-full h-full object-cover"/>
         </div>
 
         <div className="p-0">
